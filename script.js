@@ -25,7 +25,7 @@ const getData = async () => {
 getData();
 
 const displayData = (obj) => {
-    maincontainer.innerHTML += `<div class="card w-50 rounded-2">
+    maincontainer.innerHTML += `<div class="card rounded-2">
     <div class="card-header d-flex justify-content-between align-items-center">
     <div>
         Tech Quote
