@@ -21,7 +21,12 @@ body {
     width: 100%;
     height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right top, #012a4aff, #013a63ff, #01497cff, #014f86ff, #2a6f97ff, #2c7da0ff, #468fafff, #61a5c2ff, #89c2d9ff, #a9d6e5ff);
+    background-image: linear-gradient(to right, #012a4aff, #013a63ff, #01497cff, #014f86ff, #2a6f97ff, #2c7da0ff, #468fafff, #61a5c2ff, #89c2d9ff, #a9d6e5ff);
+}
+
+.content {
+    width: 100%;
+    height: 100%;
 }
 
 #maincontainer {
@@ -31,7 +36,9 @@ body {
 }
 
 .card {
+    margin-top: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.75s;
 }
 
 .card:hover {
